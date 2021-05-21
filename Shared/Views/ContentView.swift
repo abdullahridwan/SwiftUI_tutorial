@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             List(landmarks){specific_landmark in
-                NavigationLink(destination: LandmarkDetail()){
+                NavigationLink(destination: LandmarkDetail(landmark: specific_landmark)){
                     LandmarkRow(landmark: specific_landmark)
                 }
             }
