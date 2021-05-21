@@ -29,8 +29,8 @@
 		B58ED53326575F6C0036B778 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ED53126575F6C0036B778 /* ModelData.swift */; };
 		B5ADA889265808B900A691B7 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADA888265808B900A691B7 /* LandmarkList.swift */; };
 		B5ADA88A265808B900A691B7 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADA888265808B900A691B7 /* LandmarkList.swift */; };
-		B5ADA88C26580AD800A691B7 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADA88B26580AD800A691B7 /* LandmarkDetail.swift */; };
-		B5ADA88D26580AD800A691B7 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADA88B26580AD800A691B7 /* LandmarkDetail.swift */; };
+		B5D4129E26580EBC007A5B68 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D4129D26580EBC007A5B68 /* LandmarkDetail.swift */; };
+		B5D4129F26580EBC007A5B68 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D4129D26580EBC007A5B68 /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +72,7 @@
 		B58ED52E26575C520036B778 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		B58ED53126575F6C0036B778 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		B5ADA888265808B900A691B7 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
-		B5ADA88B26580AD800A691B7 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		B5D4129D26580EBC007A5B68 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,7 +185,7 @@
 				B51F88B926570478009EE98C /* ContentView.swift */,
 				B549B30C2657FEE60066B8E0 /* LandmarkRow.swift */,
 				B5ADA888265808B900A691B7 /* LandmarkList.swift */,
-				B5ADA88B26580AD800A691B7 /* LandmarkDetail.swift */,
+				B5D4129D26580EBC007A5B68 /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -370,7 +370,7 @@
 				B51F88F926570ECD009EE98C /* MapView.swift in Sources */,
 				B51F88E12657047A009EE98C /* SwiftUI_TutorialApp.swift in Sources */,
 				B5ADA889265808B900A691B7 /* LandmarkList.swift in Sources */,
-				B5ADA88C26580AD800A691B7 /* LandmarkDetail.swift in Sources */,
+				B5D4129E26580EBC007A5B68 /* LandmarkDetail.swift in Sources */,
 				B51F88F626570D4A009EE98C /* CircleImage.swift in Sources */,
 				B58ED52F26575C520036B778 /* Landmark.swift in Sources */,
 				B549B30D2657FEE60066B8E0 /* LandmarkRow.swift in Sources */,
@@ -386,7 +386,7 @@
 				B51F88FA26570ECD009EE98C /* MapView.swift in Sources */,
 				B51F88E22657047A009EE98C /* SwiftUI_TutorialApp.swift in Sources */,
 				B5ADA88A265808B900A691B7 /* LandmarkList.swift in Sources */,
-				B5ADA88D26580AD800A691B7 /* LandmarkDetail.swift in Sources */,
+				B5D4129F26580EBC007A5B68 /* LandmarkDetail.swift in Sources */,
 				B51F88F726570D4A009EE98C /* CircleImage.swift in Sources */,
 				B58ED53026575C520036B778 /* Landmark.swift in Sources */,
 				B549B30E2657FEE60066B8E0 /* LandmarkRow.swift in Sources */,
