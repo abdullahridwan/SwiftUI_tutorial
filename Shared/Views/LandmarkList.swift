@@ -19,6 +19,9 @@ struct LandmarkList: View {
     var body: some View {
         NavigationView{
             List{
+                Toggle(isOn: $showFavoritesOnly){
+                    Text("Show Favorites")
+                }
                 ForEach(favoriteLandmarks){specific_landmark in
                     NavigationLink(destination: LandmarkDetail(landmark: specific_landmark)){
                         LandmarkRow(landmark: specific_landmark)
