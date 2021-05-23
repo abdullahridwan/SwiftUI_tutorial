@@ -9,16 +9,10 @@ import SwiftUI
 
 @main
 struct SwiftUI_TutorialApp: App {
+    @StateObject private var modelData = ModelData()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(modelData)
         }
-    }
-}
-
-struct SwiftUI_TutorialApp_Previews: PreviewProvider {
-    static var previews: some View {
-        Text("Hello")
-            .font(.title)
     }
 }

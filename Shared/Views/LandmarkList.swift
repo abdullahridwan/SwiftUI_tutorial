@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct LandmarkList: View {
-    @State private var showFavoritesOnly: Bool = false
+    @EnvironmentObject var modelData: ModelData
+    @State private var showFavoritesOnly = false
+
     
     var favoriteLandmarks: [Landmark] {
-        landmarks.filter{landmark in
+        modelData.landmarks.filter{landmark in
             (!showFavoritesOnly || landmark.isFavorite)
         }
     }
@@ -28,21 +30,14 @@ struct LandmarkList: View {
                     }
                 }
             }
+            .navigationTitle("Landmarks")
         }
-        .navigationTitle("Landmarks")
     }
 }
 
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         LandmarkList()
-        /*
-        ForEach(["iPad (8th generation)", "iPhone 12 Pro Max"], id: \.self){device in
-        LandmarkList()
-            .previewDevice(PreviewDevice(rawValue: device))
-            .previewDisplayName(device)
-        }
-        */
-        
+            .environmentObject(ModelData())
     }
 }

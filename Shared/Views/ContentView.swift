@@ -9,14 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView{
-            List(landmarks){specific_landmark in
-                NavigationLink(destination: LandmarkDetail(landmark: specific_landmark)){
-                    LandmarkRow(landmark: specific_landmark)
-                }
-            }
-            .navigationTitle("Landmarks")
-        }
+            LandmarkList()
     }
     
     
@@ -26,6 +19,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(ModelData())
     }
 }
