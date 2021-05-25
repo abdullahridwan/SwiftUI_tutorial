@@ -22,9 +22,9 @@ struct LandmarkRow: View {
                 Image(systemName: "star.fill")
                     .foregroundColor(.yellow)
             }
-            
-            
         }
+        .padding(.leading, 10)
+        .padding(.trailing, 10)
     }
     
     
